@@ -1,0 +1,77 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cuadro {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.alumno-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alumno-item {
+  padding: 10px;
+  margin: 10px 0;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.alumno-actions {
+  margin-top: 10px;
+}
+
+.tarea-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.tarea-input input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.tarea-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
